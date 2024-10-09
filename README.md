@@ -6,7 +6,7 @@ by G W Duchesne , J-P Lessard and A Takayasu.
 
 **Abstract**  In this paper, we introduce a general constructive method to compute solutions of initial value problems of semilinear parabolic partial differential equations via semigroup theory and computer-assisted proofs (CAPs). Once a numerical candidate for the solution is obtained via a finite dimensional projection, Chebyshev series expansions are used to solve the linearized equations about the approximation from which a solution map operator is constructed. Using the solution operator (which exists from semigroup theory), we define an infinite dimensional contraction operator whose unique fixed point together with its rigorous bounds provide the local inclusion of the solution. Applying this technique for multiple time steps leads to constructive proofs of existence of solutions over long time intervals. As applications, we study the 3D/2D Swift-Hohenberg, where we combine our method with explicit constructions of trapping regions to prove global existence of solutions of initial value problems converging asymptotically to nontrivial equilibria. A second application consists of the 2D Ohta-Kawasaki equation, providing a framework for handling derivatives in nonlinear terms.
 
-These codes require *MATLAB* with [*INTLAB* - INTerval LABoratory](http://www.ti3.tu-harburg.de/rump/intlab/) (MATLAB toolbox for interval arithmetic) version 11.
+These codes require *MATLAB* with [*INTLAB* - INTerval LABoratory](http://www.ti3.tu-harburg.de/rump/intlab/) (MATLAB toolbox for interval arithmetic) version 11. Note that there could be errors with *Matlab versions before 2022*.
 
 ---
 
